@@ -1,0 +1,2 @@
+drop_table("heads")
+drop_table("bodies")
