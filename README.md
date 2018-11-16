@@ -1,7 +1,7 @@
-1 to 1 Pop associations example
-===============================
+Pop associations example
+========================
 
-This is an example implementation to illustrate a future blog post.
+This is example implementations to illustrate the blog post series about Pop associations.
 
 ## Setup database
 
