@@ -4,7 +4,7 @@ import (
 	"log"
 
 	"github.com/gobuffalo/pop"
-	"github.com/stanislas-m/pop-associations/models"
+	"github.com/stanislas-m/pop-associations/onetoone/models"
 )
 
 func createEntities(c *pop.Connection) error {

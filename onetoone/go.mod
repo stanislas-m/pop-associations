@@ -1,4 +1,4 @@
-module github.com/stanislas-m/pop-associations
+module github.com/stanislas-m/pop-associations/onetoone
 
 require (
 	github.com/gobuffalo/envy v1.6.8 // indirect
