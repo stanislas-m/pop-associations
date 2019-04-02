@@ -1,0 +1,11 @@
+create_table("trees") {
+ t.Column("id", "integer", {"primary": true})
+ t.Column("name", "string", {})
+ t.DisableTimestamps()
+}
+create_table("fruits") {
+ t.Column("id", "integer", {"primary": true})
+ t.Column("tree_id", "integer", {})
+ t.ForeignKey("tree_id", {"trees": ["id"]}, {})
+ t.DisableTimestamps()
+}
