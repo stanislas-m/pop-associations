@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/gobuffalo/pop"
+	"github.com/gobuffalo/pop/v5"
 	"github.com/stanislas-m/pop-associations/onetomany/models"
 )
 

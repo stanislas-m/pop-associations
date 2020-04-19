@@ -3,7 +3,7 @@ package models
 import (
 	"encoding/json"
 
-	"github.com/gobuffalo/pop"
+	"github.com/gobuffalo/pop/v5"
 	"github.com/gobuffalo/validate"
 	"github.com/gobuffalo/validate/validators"
 )
