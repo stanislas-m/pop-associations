@@ -1,0 +1,5 @@
+create_table("skills") {
+	t.Column("id", "integer", {primary: true})
+	t.Column("label", "string", {})
+	t.Timestamps()
+}

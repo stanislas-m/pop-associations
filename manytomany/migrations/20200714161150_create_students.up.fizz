@@ -1,0 +1,5 @@
+create_table("students") {
+	t.Column("id", "integer", {primary: true})
+	t.Column("name", "string", {})
+	t.Timestamps()
+}

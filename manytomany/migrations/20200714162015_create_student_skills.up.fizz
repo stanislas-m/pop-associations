@@ -1,0 +1,5 @@
+create_table("student_skills") {
+	t.Column("student_id", "integer", {})
+	t.Column("skill_id", "integer", {})
+	t.PrimaryKey("student_id", "skill_id")
+}
